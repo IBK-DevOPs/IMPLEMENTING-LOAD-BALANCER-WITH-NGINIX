@@ -289,18 +289,25 @@ for Nginix.png>)
 ### Types of Encryption
 ### 1.	Symmetric Encryption:
 ### In symmetric encryption, the same key is used for both encryption and decryption.
-### 	It’s efficient but requires secure key distribution.
-### Examples include the Caesar cipher (fixed shift encryption) and the Polyalphabetic cipher (multiple alphabets encryption)1.
+### It’s efficient but requires secure key distribution.
+
+### Examples include the Caesar cipher (fixed shift encryption) and the Polyalphabetic cipher (multiple alphabets encryption)
+
 ### 2.	Asymmetric Encryption:
 ### Asymmetric encryption uses different keys for encryption and decryption.
+
 ### It involves a public key for encryption and a private key for decryption.
-### A well-known example is the RSA (public-key cryptosystem)1.
+
+### A well-known example is the RSA (public-key cryptosystem)
+
 ### 3.	Other Encryption Techniques:
-### AES (Advanced Encryption Standard): A widely used symmetric-key algorithm1.
+### AES (Advanced Encryption Standard): A widely used symmetric-key algorithm.
+
 ### RC4: A stream cipher1.
 ### Enigma machine: Known for its rotating plugboard encryption1.
 ### Pretty Good Privacy (PGP): Encryption software1.
-### Symbol replacement encryption: Uses non-standard symbols1.
+### Symbol replacement encryption: Uses non-standard symbols.
+
 ### Wheel cipher (Jefferson disk): Utilizes spool-based encryption
 
 ### Purpose of SSL/TLS
@@ -319,6 +326,9 @@ for Nginix.png>)
 ### Advanced Load Balancing feature
 
 ### Advanced Load Balancer scales out applications on demand and detects failures for a fault-tolerant self-healing application infrastructure. These functions can be automated for a hands-off operational management model through a closed-loop monitoring process.
+
+![alt text](<Images/SSL and TLS.png>)
+
 
 ### Advance security features
 
