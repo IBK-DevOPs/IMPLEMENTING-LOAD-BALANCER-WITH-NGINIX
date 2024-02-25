@@ -259,20 +259,93 @@ for Nginix.png>)
 
 
 
+### What is Load balancing algoriths
+
+### A load balancing algorithm is the set of rules that a load balancer follows to determine the best server for each of the different client requests. Load balancing algorithms fall into different categories.
+
+![alt text](<Images/load balancer.png>)
 
 
+### SSL Termination and HPPTS load balancing
 
 
+#### SSL termination intercepts encrypted https traffic when a server receives data from a secure socket layer (SSL) connection in an SSL session. SSL termination or SSL offloading decrypts and verifies data on the load balancer instead of the application server.
 
+#### Transport Layer Security (TLS) is the upgraded version of SSL that fixes existing SSL vulnerabilities. TLS authenticates more efficiently and continues to support encrypted communication channels.
 
+### Secure Socket Layer (SSL)
+### Transport Layer Security (TLS)
+### Hypertext transfer protocol secure (HTTPS)
 
+### HTTPS is a more secure version or an extension of HTTP. In HTTPS, the browser and server establish a secure, encrypted connection before transferring data.
 
+### ENCRYPTION
+### Encryption is used to protect data from being stolen, changed, or compromised and works by scrambling data into a secret code that can only be unlocked with a unique digital key.
 
+### Encryption and Decryption process
 
+![alt text](Images/Encryption.gif)
 
+### Types of Encryption
+### 1.	Symmetric Encryption:
+### In symmetric encryption, the same key is used for both encryption and decryption.
+### 	It’s efficient but requires secure key distribution.
+### Examples include the Caesar cipher (fixed shift encryption) and the Polyalphabetic cipher (multiple alphabets encryption)1.
+### 2.	Asymmetric Encryption:
+### Asymmetric encryption uses different keys for encryption and decryption.
+### It involves a public key for encryption and a private key for decryption.
+### A well-known example is the RSA (public-key cryptosystem)1.
+### 3.	Other Encryption Techniques:
+### AES (Advanced Encryption Standard): A widely used symmetric-key algorithm1.
+### RC4: A stream cipher1.
+### Enigma machine: Known for its rotating plugboard encryption1.
+### Pretty Good Privacy (PGP): Encryption software1.
+### Symbol replacement encryption: Uses non-standard symbols1.
+### Wheel cipher (Jefferson disk): Utilizes spool-based encryption
 
+### Purpose of SSL/TLS
+### SSL/TLS stands for secure sockets layer and transport layer security. It is a protocol or communication rule that allows computer systems to talk to each other on the internet safely. SSL/TLS certificates allow web browsers to identify and establish encrypted network connections to web sites using the SSL/TLS protocol.
 
+### How SSL/TLS work
 
+### The SSL/TLS handshake involves the following steps: The browser opens an SSL/TLS-secure website and connects to the web server. The browser attempts to verify the authenticity of the web server by requesting identifiable information. The web server sends the SSL/TLS certificate that contains a public key as a reply
+### This is how tls/ssl work step by steps 
+
+### Specify which version of TLS (TLS 1.0, 1.2, 1.3, etc.) they will use.
+### Decide on which cipher suites (see below) they will use.
+### Authenticate the identity of the server using the server's TLS certificate.
+### Generate session keys for encrypting messages between them after the handshake is complete.
+
+### Advanced Load Balancing feature
+
+### Advanced Load Balancer scales out applications on demand and detects failures for a fault-tolerant self-healing application infrastructure. These functions can be automated for a hands-off operational management model through a closed-loop monitoring process.
+
+### Advance security features
+
+### Advanced load balancing in cloud computing distributes traffic across many servers to reduce latency and improve server availability and reliability. Successful cloud load balancing implementations prevent server failure and optimize performance using several different load balancing techniques.
+
+#### 1  Advanced Load Balancer provides robust load balancing services for Layer 4 (transport layer) and Layer 7 (application layer).
+#### NS, and wildcard VIP.
+#### Additionally, it intelligently routes traffic across sites and clouds
+
+#### 2  Predictive Autoscaling:
+#### VAdvanced Load Balancer dynamically scales applications and load balancing based on real-time traffic patterns.
+#### It can automatically adjust capacity up or down to meet elastic application demands across multi-cloud environments.
+
+#### 3 Automation and Programmability 
+#### The solution is 100% REST API-based, making it fully automatable.
+#### It extends automation from networking to developers, enabling self-service through a portal.
+#### Integration with tools like Python SDK, Ansible, and Terraform further enhances automation capabilities
+
+#### 4 Pervasive Analytics
+#### Gain unprecedented insights into network performance, end-user experience, and security.
+#### Real-time application performance monitoring, closed-loop analytics, and deep machine learning help troubleshoot issues effectively
+
+#### 5 Multi-Cloud Consistency
+#### Simplify administration with centralized policies and operational consistency across on-premises data centers, hybrid clouds, and public clouds (including VMware Cloud, AWS, Azure, Google and oracle cloud
+
+#### 6 Future-Proof for All Workloads
+#### Extend application services, including container ingress and app security, to cloud-native apps in Kubernetes and OpenShift environments.
 
 
 
