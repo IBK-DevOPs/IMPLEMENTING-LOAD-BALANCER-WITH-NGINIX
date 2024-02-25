@@ -65,11 +65,16 @@
 
 ![alt text](<Images/create instance.png>)
 
+
 ![alt text](<Images/Free  tier and pem key.png>)
+
 
 ![alt text](<Images/apache 1 instance detail.png>)
 
-![alt text](<Images/add outbound security port 80 for Nginix.png>)
+
+![alt text](<Images/add outbound security port 80 
+for Nginix.png>)
+
 
 ![alt text](<Images/connect apache 1 to terminal via ssh.png>)
 
@@ -78,21 +83,24 @@
 
 #### Connect to terminal via ssh 
 
-![alt text](<Images/copy ssh command.png>)
-
 ![alt text](<Images/EC2  apache 1 ID.png>)
 
 ![alt text](<Images/EC2 apache 2 ID.png>)
 
+![alt text](<Images/copy ssh command.png>)
+
 
 #### Install apache 1 on a terminal with below code
+
 ![alt text](<Images/installing apache on server 1.png>)
 
 #### `sudo apt update -y &&  sudo apt install apache2 -y`
 
 #### verify apache 1 is running very well with below code.
 
-#![alt text](<Images/systemctl show that apche 1 install very well.png>)### `sudo systemctl status apache2`
+![alt text](<Images/systemctl show that apche 1 install very well.png>)
+
+#### `sudo systemctl status apache2`
 
 #### add a new listen directive for port 8000, press I, to switch to insert mode.
 
